@@ -4,5 +4,20 @@
 {
 	height: 650px;
 	width: 100%;
-	
+}
+
+.card
+{
+	height:450px;
+}
+
+.card img
+{
+	height: 250px;
+}
+
+
+.headr
+{
+	background-color: #EEE9E9;
 }
