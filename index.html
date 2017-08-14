@@ -3,24 +3,24 @@
 <head>
     <title>Bootstrap</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <link href="css/style.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="bootstrap.min.js"></script>
 </head>
 
 <body>
     <!-- Navigation Bar Section -->
     <div class="container">
         <div class=headr>
-            <nav class="navbar navbar-toggleable-sm bg-secondary">
+            <nav class="navbar navbar-toggleable-sm bg-inverse fixed-top">
                 <button class="navbar-toggler" data-target=".navbar-collapse" data-toggle="collapse">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon bg-info"></span>
                 </button>
-                <h1 class="display1 text-primary">News</h1>
+                <h1 class="display1 text-white">News</h1>
                 <div class="container">
-                    <div class="navbar-collapse collapse text-black justify-content-center">
+                    <div class="navbar-collapse collapse text-white justify-content-center">
                         <a class="nav-item nav-link active" href="index.html">Home</a>
                         <a class="nav-item nav-link" href="#">About</a>
                         <a class="nav-item nav-link" href="#">Contact</a>
@@ -80,8 +80,8 @@
         <div class="tab-content py-5">
             <div class="tab-pane active" id="politics">
                 <div class="row">
-                    <div class="col-md-8 col-lg-4">
-                        <div class="card" style="width: 20rem;">
+                    <div class="col-md-4 col-lg-4">
+                        <div class="card">
                             <img class="card-img-top img-fluid" src="images/pl1.jpg">
                             <div class="card-block">
                                 <h4 class="card-title">Gujarat RS Election 2017</h4>
@@ -90,8 +90,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8 col-lg-4">
-                        <div class="card" style="width: 20rem;">
+                    <div class="col-md-4 col-lg-4">
+                        <div class="card" >
                             <img class="card-img-top" src="images/pl2.jpg">
                             <div class="card-block">
                                 <h4 class="card-title">Delhi High Court</h4>
@@ -100,8 +100,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8 col-lg-4">
-                        <div class="card" style="width: 20rem;">
+                    <div class="col-md-4 col-lg-4">
+                        <div class="card">
                             <img class="card-img-top" src="images/pl3.jpg">
                             <div class="card-block">
                                 <h4 class="card-title">IT Raid"</h4>
@@ -112,11 +112,12 @@
                     </div>
                 </div>
             </div>
+            </div>
             <!-- Sports  News Section -->
             <div class="tab-pane" id="sports">
                 <div class="row">
-                    <div class="col-md-8 col-lg-4">
-                        <div class="card" style="width: 20rem;">
+                    <div class="col-md-4 col-lg-4">
+                        <div class="card">
                             <img class="card-img-top" src="images/s1.jpg">
                             <div class="card-block">
                                 <h4 class="card-title">Barcelona</h4>
@@ -125,8 +126,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8 col-lg-4">
-                        <div class="card" style="width: 20rem;">
+                    <div class="col-md-4 col-lg-4">
+                        <div class="card">
                             <img class="card-img-top" src="images/s2.jpg">
                             <div class="card-block">
                                 <h4 class="card-title">Badminton</h4>
@@ -135,8 +136,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-8 col-lg-4">
-                        <div class="card" style="width: 20rem;">
+                    <div class="col-md-4 col-lg-4">
+                        <div class="card">
                             <img class="card-img-top" src="images/s3.jpg">
                             <div class="card-block">
                                 <h4 class="card-title">Tennis"</h4>
@@ -152,7 +153,7 @@
             <div class="tab-pane " id="business">
                 <div class="row">
                     <div class="col-md-8 col-lg-4">
-                        <div class="card" style="width: 20rem;">
+                        <div class="card">
                             <img class="card-img-top" src="images/b1.jpg">
                             <div class="card-block">
                                 <h4 class="card-title">Investors</h4>
@@ -163,7 +164,7 @@
                         </div>
                     </div>
                     <div class="col-md-8 col-lg-4">
-                        <div class="card" style="width: 20rem;">
+                        <div class="card">
                             <img class="card-img-top" src="images/b2.jpg">
                             <div class="card-block">
                                 <h4 class="card-title">Indian Currency</h4>
@@ -174,7 +175,7 @@
                         </div>
                     </div>
                     <div class="col-md-8 col-lg-4">
-                        <div class="card" style="width: 20rem;">
+                        <div class="card">
                             <img class="card-img-top" src="images/b3.jpg">
                             <div class="card-block">
                                 <h4 class="card-title">Loans"</h4>
@@ -187,10 +188,10 @@
                 </div>
             </div>
             <!--Technology News Section  -->
-            <div class="tab-pane " id="technology">
+            <div class="tab-pane" id="technology">
                 <div class="row">
                     <div class="col-md-8 col-lg-4">
-                        <div class="card" style="width: 20rem;">
+                        <div class="card">
                             <img class="card-img-top" src="images/t1.jpg">
                             <div class="card-block">
                                 <h4 class="card-title">TRAI</h4>
@@ -201,7 +202,7 @@
                         </div>
                     </div>
                     <div class="col-md-8 col-lg-4">
-                        <div class="card" style="width: 20rem;">
+                        <div class="card">
                             <img class="card-img-top" src="images/t2.jpg">
                             <div class="card-block">
                                 <h4 class="card-title">PayTm</h4>
@@ -212,7 +213,7 @@
                         </div>
                     </div>
                     <div class="col-md-8 col-lg-4">
-                        <div class="card" style="width: 20rem;">
+                        <div class="card">
                             <img class="card-img-top" src="images/t3.jpg">
                             <div class="card-block">
                                 <h4 class="card-title">Google"</h4>
@@ -224,8 +225,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
     <!-- News Collage section -->
     <div class="container">
         <div class="row">
@@ -248,7 +247,8 @@
 		            </div>
 		       <br><br>
 
-		           <div class="container">
+		           <div class="container-fuid">
+                   <div class="jumbotron jumbotron-fluid bg-info">
 		           <h1 class="display1 text-center">Gearing up for the 70th Independence Day</h1>
 		           <div class="row" id="collage">
 		            <div class="col-lg-4 col-md-8">
@@ -268,18 +268,46 @@
 		     	
 		         </div>
 		        </div>
+                </div>
 		<!-- Footer Section --> 
-		        <div class="container">         
-		        <div class="last">
+                <div class="Footer text-white">
+		        <div class="container-fluid">
+                <div class="row">
+                <div class="col-sm-4">
+                <ul>
+                <li><h3>Policies</h3></li>
+                <li>CONTACT PRIVACY POLICY</li> 
+                <li>LEGAL DISCLAIMER</li> 
+                <li>COMPLAINT</li> 
+                <li>OUR TEAM</li>
+                <li>INVESTOR INFO</li>
+                </ul> 
+                </div>
+
+                <div class="col-sm-4">
+                <ul>
+                <li><h3>News</h3></li>
+                <li>Sports News</li> 
+                <li>Business News</li> 
+                <li>Political News</li> 
+                <li>International News</li>
+                <li>Bollywood News</li>
+                </ul>
+                </div>
+                
+                <div class="col-sm-4">         
 		            <ul>
-		                <li><h1>Connect With Us</h1></li>
-		                <li> <a href="https://www.facebook.com"><img src="images/facebook.png"></a></li>
-		                <li> <a href="https://www.youtube.com"><img src="images/youtube.png"></a></li>
-		                <li> <a href="https://twitter.com/login"><img src="images/twitter.png"></a></li>
-		                <li> <a href="https://www.snapchat.com/l/en-gb/"><img src="images/snapchat.png"></a></li>
+		                <li><h3>Connect With Us</h3></li>
+		                <li> <a href="https://www.facebook.com"><img src="images/facebook.png"></a>
+		                <a href="https://www.youtube.com"><img src="images/youtube.png"></a>
+		                <a href="https://twitter.com/login"><img src="images/twitter.png"></a>
+		                <a href="https://www.snapchat.com/l/en-gb/"><img src="images/snapchat.png"></a></li>
 		            </ul>
-		        </div>
-		        </div>
+                </div>
+
+                </div>
+                </div>
+                </div>
 
 
 		     
